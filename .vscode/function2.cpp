@@ -20,7 +20,7 @@ int main(){
 //    printnumber(a);
 
 int a;
-cout<<"the valuue of a is";
+cout<<"the valuue of a is"<<endl;
 cin>>a;
 int psum=getsum(a);
 cout<<psum<<endl;

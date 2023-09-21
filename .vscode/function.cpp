@@ -43,11 +43,13 @@ int value(int num1,int num2,int num3){
     return num3;
 }
 }
+
 int main(){
 int a,b,c;
 cin>>a>>b>>c;
 int maxNumber= value(a,b,c);
 cout<< maxNumber<<endl;
+return 0;
 
     
 }
