@@ -59,5 +59,6 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "random": "cpp"
-  }
+  },
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
