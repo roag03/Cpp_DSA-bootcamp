@@ -6,3 +6,8 @@
 //     cout<<arr.size()<<endl;
 // }
 
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"world affairs";
+}
