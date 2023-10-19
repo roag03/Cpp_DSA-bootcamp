@@ -12,6 +12,21 @@ int main() {
   arr.push_back(8);
   for(int i=0;i<arr.size();i++){
     cout<<arr[i]<<" ";
+
   }
-  return 0;
+ 
+  cout << "Printing crr";
+  vector<int> crr{10, 20, 30, 40, 50};
+  for (int i = 0; i < crr.size(); i++) {
+    cout << crr[i] << " ";
+  }
+  cout << endl;
+  cout << "Vector crr is enpty or not" << endl<< crr.empty();
+  cout<<"printing vector drr";
+  vector<int>drr;
+  
+    cout<<"vector drr is empty or not"<<drr.empty() ;
+  
+}
+return 0;
 }
