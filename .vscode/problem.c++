@@ -50,23 +50,38 @@
 
 // Problem no. 3 intersection of given array
 
-#include <iostream>
-#include<vector>
-using namespace std;
-int main() {
-vector<int>arr{1,2,3,4,5};
-vector<int>brr{1,3,8,9};
-vector<int>ans;
-for(int i=0;i<arr.size();i++){
-    // int element=arr[i];
-    for(int j=0;j<brr.size();j++){
-        if (arr[i]==brr[j]){
-            ans.push_back(arr[i]);
-        }
-    }
-}
-for(auto value: ans){
-    cout<<value<<" ";
-}
-    return 0;
-}
+// #include <iostream>
+// #include<vector>
+// using namespace std;
+// int main() {
+// vector<int>arr{1,2,3,4,5};
+// vector<int>brr{1,3,8,9};
+// vector<int>ans;
+// for(int i=0;i<arr.size();i++){
+//     // int element=arr[i];
+//     for(int j=0;j<brr.size();j++){
+//         if (arr[i]==brr[j]){
+//             ans.push_back(arr[i]);
+//         }
+//     }
+// }
+// for(auto value: ans){
+//     cout<<value<<" ";
+// }
+//     return 0;
+// }
+
+// problem PAIR SUM 
+// #include <iostream>
+// #include<vector>
+// using namespace std;
+// int main() {
+// vector<int>arr{10,20,30,40};
+// for(int i=0;i<arr.size();i++){
+//     int element=arr[i];
+//     for(int j=i+1;j<arr.size();j++){
+//         cout<<"("<<element<<","<<arr[j]<<")"<<endl;
+//     }
+// }
+//     return 0;
+// }
