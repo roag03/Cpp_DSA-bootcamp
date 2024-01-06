@@ -88,3 +88,4 @@
 // }
 //     return 0;
 // }
+// Problem no. 6 find the pair in an array with a difference of k
