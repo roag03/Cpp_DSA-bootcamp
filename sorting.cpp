@@ -10,24 +10,25 @@ int firstOccurence(vector<int>arr,int target){
 
 if(arr[mid]==target){
     ans=mid;
-    e=mid-1; //why this is written here
+    e=mid-1; //why this is written here beacause hame left mai search karna hai first occurance ko
 }
+// s=mid+1;
+else if(target>arr[mid]){
+    s=mid+1;
+}
+
+   
 else if(target<arr[mid]){
     e=mid-1;
     
 }
-else if(target>arr[mid]){
-    s=mid+1;
-}
 mid=s+(e-s)/2;
-    
-}
-
+ }
 return ans;
     
 }
 int main(){
-    vector<int>arr{1,3,3,6,7};
+    vector<int>arr{1,3,3,6,4,4,4,7};
     int target=4;
     int indexOfFirstOcc=firstOccurence(arr,target);
     cout<<"ans is "<<indexOfFirstOcc<<endl;
